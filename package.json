@@ -1,0 +1,18 @@
+{
+  "name": "ok-media-extractor",
+  "version": "1.0.0",
+  "description": "Simple Puppeteer extractor API for m3u8/mp4/storage.yandex links",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "puppeteer": "^21.3.8",
+    "p-limit": "^4.0.0",
+    "body-parser": "^1.20.2"
+  }
+}
